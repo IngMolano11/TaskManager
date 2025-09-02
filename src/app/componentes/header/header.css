@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid-container {
+  display: flex;
+  align-items: center;
+  gap: 2px; /* opcional, separa los elementos */
+}
+
+.left {
+  flex: 1;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.center {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.right {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  gap: 2px;
+}
+
+.right img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
